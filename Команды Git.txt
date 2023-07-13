@@ -2,3 +2,9 @@ git inin - иницилизация гита в проэкте
 
 git config --local user.name "Glinko" - Установка имени разработчика  --globl
 git config --local user.email forearnings78@gmail.com		      --globl
+
+git status 
+
+git add -A - Добавить все файлы в Git
+
+git commit -a -m"Firtst Commit" - создает контрольную точку 

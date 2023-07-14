@@ -8,3 +8,9 @@ git status
 git add -A - Добавить все файлы в Git
 
 git commit -a -m"Firtst Commit" - создает контрольную точку 
+
+git log - посмотреть как и кто оставлят точки коментариев
+
+git remote add origin https://github.com/MaxGlinko78/learnJS.git - Связать проект с GitHub
+
+git push -u origin master

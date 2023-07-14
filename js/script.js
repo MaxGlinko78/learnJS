@@ -38,3 +38,28 @@
 
 
 //let data = curl --location --request GET 'http://194.126.203.180:10158/v1_00/RoomStatus' --header 'API-TOKEN: 5ff5f689-1a11-48b8-ab88-645f236528da'
+
+const numberOfFilms = prompt('Сколько фильмов вы посмотрели ?');
+
+
+
+const personalMovieDB = {
+  count: numberOfFilms,
+  movies :{},
+  actors:{},
+  ganers:[],
+  privat: false,
+}
+
+const a = prompt('Один из последних фильмов',''),
+      b = prompt('На сколько оцените его ?',''),
+      c = prompt('Один из последних фильмов',''),
+      d = prompt('На сколько оцените его ?','');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+// personalMovieDB.movies = prompt('Один из последних фильмов');
+// personalMovieDB.movies = prompt('На сколько оцените его ?');
+// 
+ console.log(personalMovieDB);

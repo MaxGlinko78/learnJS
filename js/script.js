@@ -134,14 +134,46 @@
 // console.log(personalMovieDB)
 
 
-// lesson 16 
+// lesson 16  functions
+ 
 let num = 20;
 
 function showFirstMessage(text) {
-console.log(text);
-let num = 10;
+  console.log(text);
+  let num = 10;
+  console.log(` Переменная из Функции ${num}`);
   
 }
 
-showFirstMessage("First Message");
+showFirstMessage("First Message ");
 console.log(num);
+
+function calc(a,b) {
+  return(a+b);
+  
+}
+
+console.log(calc(4,3)); 
+console.log(calc(4,7));
+
+
+function ret() {
+  let num = 50;
+  return num;
+  
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+
+
+const logger = function() {
+  console.log("Hello");
+  
+};
+
+
+logger();
+
+// lesson 17
